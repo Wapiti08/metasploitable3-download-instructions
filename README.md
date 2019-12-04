@@ -8,7 +8,7 @@ References include:
 
 **Additional information**
 
-1. Network Setting
+1. Networking Setting
   > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     
   *If I use the NAT model, all the vms will have the same IPs. I have no idea how to fix that.* 
   
@@ -27,13 +27,13 @@ References include:
 
 If you meet problem like that:
 
-Unable to resolve dependency: user requested 'vagrant-share (> 0)'
+>Unable to resolve dependency: user requested 'vagrant-share (> 0)'
 
 ```vagrant plugin install vagrant-cucumber```
 
 If you meet notice like that:
 
---> vmware-iso: Failed creating VMware driver: Unable to initialize any driver for this platform. The errors
+> --> vmware-iso: Failed creating VMware driver: Unable to initialize any driver for this platform. The errors
 from each driver are shown below. Please fix at least one driver
 to continue:
 * exec: "vmware": executable file not found in $PATH
