@@ -66,3 +66,5 @@ If you meet this error:
 You can follow instructions here:
 [VBoxManage: error: Failed to create the host-only adapter](https://stackoverflow.com/questions/21069908/vboxmanage-error-failed-to-create-the-host-only-adapter/59177386#59177386)
 
+Then you can login in with the default password and username:
+[metasploitable3](ttps://github.com/rapid7/metasploitable3)
