@@ -5,7 +5,7 @@ This is the instruction on how to download the metasploitable3 successfully
 
 References include:
 
-``` code ```
+
 **Additional information**
 
 1. Network Setting
@@ -14,13 +14,14 @@ References include:
   
   **(1) Restart the networking service: **
   
-    default the system uses the eth0 network adapter
-    shut the default network adapter down first
+   default the system uses the eth0 network adapter
+    
+   shut the default network adapter down first
     ```  ifdown eth0 ```
-    restart the apapter
+   restart the apapter
     ```  ifup etho0 ```
-    or:
-    restart the networking service
+   or:
+   restart the networking service
     ``` sudo /etc/init.d/networking restart ```
   
 
