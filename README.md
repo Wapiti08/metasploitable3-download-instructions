@@ -26,13 +26,13 @@ References include:
   
 ## Instructions
 
-As the instruction here, to download the vagrant, packer and virtualbox. 
+1.As the instruction here, to download the vagrant, packer and virtualbox. 
 
 **Pay attention to the versions for every tools**
 
 [Metasploitable 3 install](https://liberty-shell.com/sec/2018/07/08/install-ms3/)
 
-If you meet problem like that:
+2.If you meet problem like that:
 
 >Unable to resolve dependency: user requested 'vagrant-share (> 0)'
 
@@ -40,7 +40,7 @@ reference is(https://github.com/hashicorp/vagrant/issues/8054)
 
 ```vagrant plugin install vagrant-cucumber```
 
-If you meet notice like that:
+3.If you meet notice like that:
 
 > --> vmware-iso: Failed creating VMware driver: Unable to initialize any driver for this platform. The errors
 from each driver are shown below. Please fix at least one driver
@@ -57,7 +57,7 @@ It means it goes well.
 
 ```vagrant up```
 
-If you meet this error:
+4.If you meet this error:
 >There was an error while executing `VBoxManage`, a CLI used by Vagrant
 >for controlling VirtualBox. The command and stderr is shown below.
 
@@ -73,5 +73,5 @@ If you meet this error:
 You can follow instructions here:
 [VBoxManage: error: Failed to create the host-only adapter](https://stackoverflow.com/questions/21069908/vboxmanage-error-failed-to-create-the-host-only-adapter/59177386#59177386)
 
-Then you can login in with the default password and username:
+5.Then you can login in with the default password and username:
 [metasploitable3](https://github.com/rapid7/metasploitable3)
