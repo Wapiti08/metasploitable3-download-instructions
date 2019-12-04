@@ -9,7 +9,9 @@ References include:
 **Additional information**
 
 1. Network Setting
-  > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     * If I use the Nat, all the vms will have the same IPs. I have no idea how to fix that.* 
+  > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     
+  *If I use the Nat, all the vms will have the same IPs. I have no idea how to fix that.* 
+  
   (1)Restart the networking service:
     default the system uses the eth0 network adapter
     ```  ifdown eth0 ```
