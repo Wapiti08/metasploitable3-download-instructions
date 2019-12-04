@@ -17,7 +17,6 @@ References include:
   
     ```  ifdown eth0 ```
     ```  ifup etho0 ```
-    
     or:
     
     ``` sudo /etc/init.d/networking restart ```
