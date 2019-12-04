@@ -6,13 +6,13 @@ This is the instruction on how to download the metasploitable3 successfully
 References include:
 
 
-**Additional information**
+## Additional information
 
 1. Networking Setting
   > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     
   If I use the NAT model, all the vms will have the same IPs. I have no idea how to fix that. 
   
- (1) Restart the networking service: 
+ **(1) Restart the networking service:** 
   
    default the system uses the eth0 network adapter
     
@@ -24,7 +24,7 @@ References include:
    restart the networking service
     ``` sudo /etc/init.d/networking restart ```
   
-
+## Instructions
 If you meet problem like that:
 
 >Unable to resolve dependency: user requested 'vagrant-share (> 0)'
