@@ -36,10 +36,10 @@ If you meet notice like that:
 > --> vmware-iso: Failed creating VMware driver: Unable to initialize any driver for this platform. The errors
 from each driver are shown below. Please fix at least one driver
 to continue:
-* exec: "vmware": executable file not found in $PATH
-* exec: "vmware": executable file not found in $PATH
-* exec: "vmrun": executable file not found in $PATH
-* exec: "vmrun": executable file not found in $PATH
+>* exec: "vmware": executable file not found in $PATH
+>* exec: "vmware": executable file not found in $PATH
+>* exec: "vmrun": executable file not found in $PATH
+>* exec: "vmrun": executable file not found in $PATH
 
 > ==> Builds finished. The artifacts of successful builds are:
 --> virtualbox-iso: 'virtualbox' provider box: /home/newt/VirtualBox VMs/Metasploitable3/metasploitable3/packer/templates/../builds/windows_2008_r2_virtualbox_0.1.0.box
