@@ -10,7 +10,7 @@ References include:
 
 1. Networking Setting
   > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     
-  *If I use the NAT model, all the vms will have the same IPs. I have no idea how to fix that.* 
+  If I use the NAT model, all the vms will have the same IPs. I have no idea how to fix that. 
   
  **(1) Restart the networking service: **
   
@@ -41,7 +41,7 @@ to continue:
 * exec: "vmrun": executable file not found in $PATH
 * exec: "vmrun": executable file not found in $PATH
 
-==> Builds finished. The artifacts of successful builds are:
+> ==> Builds finished. The artifacts of successful builds are:
 --> virtualbox-iso: 'virtualbox' provider box: /home/newt/VirtualBox VMs/Metasploitable3/metasploitable3/packer/templates/../builds/windows_2008_r2_virtualbox_0.1.0.box
 
 It means it goes well.
