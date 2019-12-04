@@ -12,7 +12,7 @@ References include:
   > I use the bridge module to do the experiment. Then it will make sure every virtual machine can communicate with each other.     
   If I use the NAT model, all the vms will have the same IPs. I have no idea how to fix that. 
   
- **(1) Restart the networking service: **
+ (1) Restart the networking service: 
   
    default the system uses the eth0 network adapter
     
@@ -29,6 +29,8 @@ If you meet problem like that:
 
 >Unable to resolve dependency: user requested 'vagrant-share (> 0)'
 
+reference is:
+https://github.com/hashicorp/vagrant/issues/8054
 ```vagrant plugin install vagrant-cucumber```
 
 If you meet notice like that:
@@ -45,3 +47,22 @@ to continue:
 --> virtualbox-iso: 'virtualbox' provider box: /home/newt/VirtualBox VMs/Metasploitable3/metasploitable3/packer/templates/../builds/windows_2008_r2_virtualbox_0.1.0.box
 
 It means it goes well.
+
+```vagrant up```
+
+If you meet this error:
+>There was an error while executing `VBoxManage`, a CLI used by Vagrant
+>for controlling VirtualBox. The command and stderr is shown below.
+
+>Command: ["hostonlyif", "create"]
+
+>Stderr: 0%...
+>Progress state: NS_ERROR_FAILURE
+>VBoxManage: error: Failed to create the host-only adapter
+>VBoxManage: error: VBoxNetAdpCtl: Error while adding new interface: failed to open /dev/vboxnetctl: No such file or directory
+>VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component HostNetworkInterfaceWrap, interface >IHostNetworkInterface
+>VBoxManage: error: Context: "RTEXITCODE handleCreate(HandlerArg*)" at line 94 of file VBoxManageHostonly.cpp
+
+You can follow instructions here:
+https://github.com/hashicorp/vagrant/issues/9318
+
