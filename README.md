@@ -64,5 +64,5 @@ If you meet this error:
 >VBoxManage: error: Context: "RTEXITCODE handleCreate(HandlerArg*)" at line 94 of file VBoxManageHostonly.cpp
 
 You can follow instructions here:
-https://github.com/hashicorp/vagrant/issues/9318
+[VBoxManage: error: Failed to create the host-only adapter](https://stackoverflow.com/questions/21069908/vboxmanage-error-failed-to-create-the-host-only-adapter/59177386#59177386)
 
