@@ -29,8 +29,8 @@ If you meet problem like that:
 
 >Unable to resolve dependency: user requested 'vagrant-share (> 0)'
 
-reference is:
-https://github.com/hashicorp/vagrant/issues/8054
+reference is(https://github.com/hashicorp/vagrant/issues/8054)
+
 ```vagrant plugin install vagrant-cucumber```
 
 If you meet notice like that:
